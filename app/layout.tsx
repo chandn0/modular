@@ -58,7 +58,7 @@ export default function RootLayout({
 								{/* <span className="text-default-600">Powered by</span>
 								<p className="text-primary">NextUI</p> */}
 								<span className="text-default-600">Improve mertics by creating PR or report issues at </span>
-								<Link isExternal className="text-primary" href="https://github.com/chandn0/layer1s">GitHub</Link> 
+								<Link isExternal className="text-primary" href="https://github.com/chandn0/modular">GitHub</Link> 
 								||  
 								<span className="text-default-600">Made by</span>
 								<Link isExternal className="text-primary" href="https://twitter.com/chandan1_">Chandan</Link>
