@@ -6,6 +6,8 @@ import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
+import {Tabs1} from "@/components/tabs";
+
 
 export const metadata: Metadata = {
 	title: {
@@ -40,9 +42,11 @@ export default function RootLayout({
 			>
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
 					<div className="relative flex flex-col h-screen">
-						<Navbar />
+						{/* <Navbar /> */}
 						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
 							{children}
+							<Tabs1 />
+
 						</main>
 						<footer className="w-full flex items-center justify-center py-3">
 							<Link
@@ -51,8 +55,13 @@ export default function RootLayout({
 								href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
 								title="nextui.org homepage"
 							>
-								<span className="text-default-600">Powered by</span>
-								<p className="text-primary">NextUI</p>
+								{/* <span className="text-default-600">Powered by</span>
+								<p className="text-primary">NextUI</p> */}
+								<span className="text-default-600">Improve mertics by creating PR or report issues at </span>
+								<Link isExternal className="text-primary" href="https://github.com/chandn0/layer1s">GitHub</Link> 
+								||  
+								<span className="text-default-600">Made by</span>
+								<Link isExternal className="text-primary" href="https://twitter.com/chandan1_">Chandan</Link>
 							</Link>
 						</footer>
 					</div>
