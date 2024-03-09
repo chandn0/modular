@@ -11,7 +11,7 @@ import {Link} from "@nextui-org/react";
 
 export const DA = () => {
     return( 
-    <div className=" mx-auto p-8">
+    <div className="container mx-auto px-4 py-8">
 
     <h1 className="text-3xl font-bold mb-4">Data Availability</h1>
     <table className="table-auto w-full border border-white-300 mb-8">

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 		{ media: "(prefers-color-scheme: light)", color: "white" },
 		{ media: "(prefers-color-scheme: dark)", color: "black" },
 	],
-	//image from https://www.flaticon.com/
+	// image from https://www.flaticon.com/
 	icons: {
 		icon: "/cubes.png",
 		shortcut: "/favicon-16x16.png",
@@ -55,14 +55,12 @@ export default function RootLayout({
 						</main>
 						<footer className="w-full flex items-center justify-center py-3">
 							<div
-								
-								className="flex items-center gap-1 text-current"
-
+								className="items-center gap-1 text-current"
 							>
 								<span className="text-default-600">Improve by creating PR or report issues at </span>
 								<Link isExternal className="text-primary" href="https://github.com/chandn0/modular">GitHub</Link> 
-								||  
-								<span className="text-default-600">Made by</span>
+								||
+								<span className="text-default-600">  Made by </span>
 								<Link isExternal className="text-primary" href="https://twitter.com/chandan1_">Chandan</Link>
 							</div>
 						</footer>

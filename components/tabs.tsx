@@ -12,8 +12,8 @@ export const  Tabs1=() => {
 
 
   return (
-    <div>
-    <Tabs  aria-label="Options">
+    <div >
+    <Tabs aria-label="Options">
       <Tab key="Data-Availability" title="Data Availability">
         <Card>
           <CardBody>
