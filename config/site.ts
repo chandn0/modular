@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "modular",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "Modular",
+	description: "Your one-stop destination for all protocols being developed within modular ecosystems.",
 	navItems: [
 		{
 			label: "Home",

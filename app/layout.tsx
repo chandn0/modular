@@ -7,6 +7,8 @@ import { Navbar } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 import {Tabs1} from "@/components/tabs";
+import Head from "next/head";
+import modular from "../public/modular.jpeg";
 
 
 export const metadata: Metadata = {
@@ -33,7 +35,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<head />
+			<Head> <meta property="og:image:alt" content={`${modular}`} /></Head>
+			
+			{/* <head /> */}
 			<body
 				className={clsx(
 					"min-h-screen bg-background font-sans antialiased",

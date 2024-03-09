@@ -12,12 +12,12 @@ import {Link} from "@nextui-org/react";
 export const SS = () => {
     return(
         <div className="container mx-auto px-4 py-8  text-white">
-  <h2 className="text-3xl font-bold mb-2">Shared Sequencing </h2>
+  <h2 className="text-3xl font-bold mb-2">Shared Sequencers </h2>
   <p className="text-gray-300 mb-4">
     Shared sequencing aims to bring stronger network security and better network decentralization through shared usage of sequencers. Currently, roll-up maintain their own sets of sequencers (usually only one) which are not censorship-resistant and interoperable with other rollups (similar to problems plaguing layer-1 networks).
   </p>
 
-  <h3 className="text-2xl font-bold mb-4">Shared Sequencing Projects</h3>
+  <h3 className="text-2xl font-bold mb-4">Shared Sequencer Projects</h3>
   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
     <div className="p-4 bg-black rounded-lg shadow-md">
       <h4 className="text-lg font-bold mb-2">

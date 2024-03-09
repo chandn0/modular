@@ -14,7 +14,7 @@ export const RollupSDKs = () => {
 
            <div className="container mx-auto p-4">
 
-<h1 className="text-4xl font-bold mb-4">Rollup SDKs and Frameworks</h1>
+<h1 className="text-4xl font-bold mb-4">Rollup SDKs</h1>
 
 <p className="mb-4">Rollup SDKs serve as frameworks that empower developers to construct customized rollups from the ground up. In practical terms, this allows any developer to create their dedicated application-specific rollup (AppRollup) using the same underlying software as popular general-purpose rollups such as Arbitrum and Optimism. Notable rollup SDK providers include Arbitrum Orbit, the OP Stack, and Rollkit.</p>
 <div className="overflow-x-auto mb-8">

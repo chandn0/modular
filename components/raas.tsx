@@ -12,7 +12,7 @@ import {Link} from "@nextui-org/react";
 export const Raas = () => {
     return(
     <div className="container mx-auto px-4 py-8">
-    <h2 className="text-3xl font-bold mb-2">Rollup-as-a-Service Explained</h2>
+    <h2 className="text-3xl font-bold mb-2">Rollup-as-a-Service</h2>
     <p className="text-white-700 mb-4">
       Developers building dApps have several options for deployment, including existing blockchains, Layer 2 solutions (L2), custom appchains, and rollups. Rollups can offer a sweet spot between customization, performance, and development effort, particularly with the simplified setup offered by Rollups-as-a-Service (RaaS) providers. These providers offer tools and services, ranging from rollup management to no-code deployment, enabling easy creation and maintenance of custom rollups.
     </p>
