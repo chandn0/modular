@@ -116,7 +116,7 @@ export const DA = () => {
   <div className="p-4 bg-black rounded-lg shadow-md">
     <h4 className="text-lg font-bold mb-2">EIP-4844: Proto-Danksharding (eip4844.com)</h4>
     <p className="text-white-700">
-      EIP-4844 introduces a new kind of transaction type to Ethereum which accepts "blobs" of data to be persisted in the beacon node for a short period of time.
+      EIP-4844 introduces a new kind of transaction type to Ethereum which accepts blobs of data to be persisted in the beacon node for a short period of time.
     </p>
   </div>
   </div>
