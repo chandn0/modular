@@ -24,7 +24,7 @@ export const SS = () => {
         <Link href="https://www.astria.org/" className="text-blue-500 hover:underline">Astria</Link>
       </h4>
       <p className="text-white-700">
-        Astria is a shared sequencing network that allows many rollups to share a single decentralized network of sequencers. These sequencers are simple and permissionless to join, completely replacing centralized sequencers. This shared sequencer network provides out-of-the-box censorship resistance, fast block confirmations, and atomic cross-rollup composability – all while retaining each rollup's sovereignty. Astria envisions a future where thousands of decentralized rollups flourish, each one tailored to meet the unique requirements of different industries, applications, and use cases.
+        Astria is a shared sequencing network that allows many rollups to share a single decentralized network of sequencers. These sequencers are simple and permissionless to join, completely replacing centralized sequencers. This shared sequencer network provides out-of-the-box censorship resistance, fast block confirmations, and atomic cross-rollup composability – all while retaining each rollup`&apos;`s sovereignty. Astria envisions a future where thousands of decentralized rollups flourish, each one tailored to meet the unique requirements of different industries, applications, and use cases.
       </p>
     </div>
 

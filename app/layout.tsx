@@ -54,8 +54,6 @@ export default function RootLayout({
 								className="flex items-center gap-1 text-current"
 
 							>
-								{/* <span className="text-default-600">Powered by</span>
-								<p className="text-primary">NextUI</p> */}
 								<span className="text-default-600">Improve by creating PR or report issues at </span>
 								<Link isExternal className="text-primary" href="https://github.com/chandn0/modular">GitHub</Link> 
 								||  

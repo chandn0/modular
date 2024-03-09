@@ -117,7 +117,7 @@ export const RollupSDKs = () => {
     <ul className="list-disc pl-6">
         <li><strong>Unified Liquidity:</strong> Polygon CDK fosters fluid asset transfers across the ecosystem, enhancing the digital economy of both Polygon and Ethereum.</li>
         <li><strong>Robust Data Availability:</strong> A dedicated Data Availability Committee (DAC) ensures off-chain data remains accessible and secure, maintaining the integrity and resilience of the blockchain.</li>
-        <li><strong>Composable Interoperability:</strong> The innovative LXLY bridge underscores Polygon CDK's commitment to seamless interaction among diverse blockchains, fostering a unified and versatile ecosystem.</li>
+        <li><strong>Composable Interoperability:</strong> The innovative LXLY bridge underscores Polygon CDK`&apos;`s commitment to seamless interaction among diverse blockchains, fostering a unified and versatile ecosystem.</li>
     </ul>
 
 </section>
@@ -177,8 +177,8 @@ export const RollupSDKs = () => {
         <h3 className="text-2xl mb-1">Key Features:</h3>
 
         <ul className="list-disc pl-6">
-            <li><strong>Modularity and Flexibility:</strong> Substrate's modular architecture allows developers to create tailored blockchains for various applications, from DeFi to gaming, by selecting and combining components like consensus mechanisms and governance models.</li>
-            <li><strong>Seamless Upgrades:</strong> Substrate's unique upgrade mechanism allows for blockchain network upgrades without hard forks, ensuring uninterrupted service.</li>
+            <li><strong>Modularity and Flexibility:</strong> Substrate`&apos;`s modular architecture allows developers to create tailored blockchains for various applications, from DeFi to gaming, by selecting and combining components like consensus mechanisms and governance models.</li>
+            <li><strong>Seamless Upgrades:</strong> Substrate`&apos;`s unique upgrade mechanism allows for blockchain network upgrades without hard forks, ensuring uninterrupted service.</li>
             <li><strong>Interoperability:</strong> Substrate supports the Polkadot ecosystem, facilitating communication and asset exchange between Substrate-based blockchains and other Polkadot networks, enabling diverse cross-chain applications and services.</li>
         </ul>
 

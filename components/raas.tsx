@@ -26,7 +26,7 @@ export const Raas = () => {
       <div className="p-4 bg-black rounded-lg shadow-md">
         <h4 className="text-lg font-bold mb-2">Caldera</h4>
         <p className="text-white-700">
-          Caldera is a RaaS provider offering users options to build rollups using Arbitrum Nitro, OP Stack, or Polygon CDK. Developers can opt for shared decentralized sequencing, reduce fees significantly via Celestia, Eigen, or NEAR for data availability, and choose any token as the native chain's currency.
+          Caldera is a RaaS provider offering users options to build rollups using Arbitrum Nitro, OP Stack, or Polygon CDK. Developers can opt for shared decentralized sequencing, reduce fees significantly via Celestia, Eigen, or NEAR for data availability, and choose any token as the native chain`&apos;`s currency.
         </p>
       </div>
   

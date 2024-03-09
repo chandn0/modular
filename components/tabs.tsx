@@ -24,7 +24,7 @@ export const  Tabs1=() => {
       <Tab key="Shared-Sequencers" title="Shared Sequencers" >
         <Card>
           <CardBody>
-<SS/>
+ <SS/>
           </CardBody>
         </Card>
       </Tab>
