@@ -21,8 +21,9 @@ export const metadata: Metadata = {
 		{ media: "(prefers-color-scheme: light)", color: "white" },
 		{ media: "(prefers-color-scheme: dark)", color: "black" },
 	],
+	//image from https://www.flaticon.com/
 	icons: {
-		icon: "/favicon.ico",
+		icon: "/cubes.png",
 		shortcut: "/favicon-16x16.png",
 		apple: "/apple-touch-icon.png",
 	},
