@@ -35,7 +35,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<Head> <meta property="og:image:alt" content={`${modular}`} /></Head>
+			<Head> <meta property="og:image" content={`${modular}`} /></Head>
 			
 			{/* <head /> */}
 			<body
