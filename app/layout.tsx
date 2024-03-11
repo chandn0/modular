@@ -9,6 +9,7 @@ import clsx from "clsx";
 import {Tabs1} from "@/components/tabs";
 import Head from "next/head";
 import modular from "../public/modular.jpeg";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 
 export const metadata: Metadata = {
@@ -67,6 +68,7 @@ export default function RootLayout({
 					</div>
 				</Providers>
 			</body>
+			<GoogleAnalytics gaId="G-1G3CDZQZJE" />
 		</html>
 	);
 }
