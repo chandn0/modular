@@ -37,9 +37,10 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<Head> <meta property="og:image" content="https://i.ibb.co/nQmMgGQ/modular.jpg" /></Head>
+			{/* <Head> <meta property="og:image" content="https://i.ibb.co/nQmMgGQ/modular.jpg" /></Head> */}
 			
-			{/* <head /> */}
+			<head />
+			
 			<body
 				className={clsx(
 					"min-h-screen bg-background font-sans antialiased",
