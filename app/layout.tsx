@@ -41,10 +41,7 @@ export default function RootLayout({
 			{/* <Head> <meta property="og:image" content="https://i.ibb.co/nQmMgGQ/modular.jpg" /></Head> */}
 			
 			<head />
-			<Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-1G3CDZQZJE"
-        strategy="afterInteractive"
-      />
+			<Script async src="https://www.googletagmanager.com/gtag/js?id=G-1G3CDZQZJE"></Script>
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
