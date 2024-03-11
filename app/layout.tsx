@@ -10,6 +10,7 @@ import {Tabs1} from "@/components/tabs";
 import Head from "next/head";
 import modular from "../public/modular.jpeg";
 import { GoogleAnalytics } from '@next/third-parties/google';
+import Script from "next/script";
 
 
 export const metadata: Metadata = {
@@ -40,6 +41,19 @@ export default function RootLayout({
 			{/* <Head> <meta property="og:image" content="https://i.ibb.co/nQmMgGQ/modular.jpg" /></Head> */}
 			
 			<head />
+			<Script
+        src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-1G3CDZQZJE');
+        `}
+      </Script>
 			
 			<body
 				className={clsx(
