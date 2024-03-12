@@ -55,19 +55,19 @@ export const RollupSDKs = () => {
         </tr>
         <tr>
           <td className="border px-4 py-2">Cosmos SDK</td>
-          <td className="border px-4 py-2"></td>
+          <td className="border px-4 py-2">-</td>
           <td className="border px-4 py-2 whitespace-pre-line">
             Akash, Fetch.ai, Stargaze, Osmosis, DYdX, Keplr, Monsterra
           </td>
         </tr>
         <tr>
           <td className="border px-4 py-2">Hyper SDK</td>
-          <td className="border px-4 py-2"></td>
+          <td className="border px-4 py-2">-</td>
           <td className="border px-4 py-2">-</td>
         </tr>
         <tr>
           <td className="border px-4 py-2">Substrate</td>
-          <td className="border px-4 py-2"></td>
+          <td className="border px-4 py-2">-</td>
           <td className="border px-4 py-2 whitespace-pre-line">
             Acala Network, Phala Network, ChainX, Moonbeam, Energy Web Chain, xx Network, Chinlink
           </td>

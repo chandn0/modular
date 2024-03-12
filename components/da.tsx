@@ -29,7 +29,7 @@ export const DA = () => {
                 <tr>
                     <td className="border px-4 py-2">Encoding proof scheme</td>
                     <td className="border px-4 py-2">Validity Proofs</td>
-                    <td className="border px-4 py-2"></td>
+                    <td className="border px-4 py-2">-</td>
                     <td className="border px-4 py-2">Fraud proofs</td>
                     <td className="border px-4 py-2">Validity Proofs</td>
                     <td className="border px-4 py-2">Validity Proofs</td>
@@ -37,7 +37,7 @@ export const DA = () => {
                 <tr>
                     <td className="border px-4 py-2">Supports data availability sampling</td>
                     <td className="border px-4 py-2">Yes</td>
-                    <td className="border px-4 py-2"></td>
+                    <td className="border px-4 py-2">-</td>
                     <td className="border px-4 py-2">Yes</td>
                     <td className="border px-4 py-2">No</td>
                     <td className="border px-4 py-2">No</td>
@@ -45,14 +45,14 @@ export const DA = () => {
                 <tr>
                     <td className="border px-4 py-2">Consensus Mechanisms</td>
                     <td className="border px-4 py-2">GRANDPA+ BABE</td>
-                    <td className="border px-4 py-2"></td>
+                    <td className="border px-4 py-2">-</td>
                     <td className="border px-4 py-2">Tendermint</td>
                     <td className="border px-4 py-2">Committee based</td>
                     <td className="border px-4 py-2">GHOST and Casper 3</td>
                 </tr>
                 <tr>
                     <td className="border px-4 py-2">Cost/Block (1 OP mainnet block ~218kb)</td>
-                    <td className="border px-4 py-2"></td>
+                    <td className="border px-4 py-2">-</td>
                     <td className="border px-4 py-2">$0.0016</td>
                     <td className="border px-4 py-2">$0.046</td>
                     <td className="border px-4 py-2">-</td>
@@ -60,24 +60,24 @@ export const DA = () => {
                 </tr>
                 <tr>
                     <td className="border px-4 py-2">Data Throughput mb/s</td>
-                    <td className="border px-4 py-2"></td>
+                    <td className="border px-4 py-2">-</td>
                     <td className="border px-4 py-2">16</td>
                     <td className="border px-4 py-2">6.67</td>
-                    <td className="border px-4 py-2"></td>
+                    <td className="border px-4 py-2">-</td>
                     <td className="border px-4 py-2">1.33</td>
                 </tr>
                 <tr>
                     <td className="border px-4 py-2">Block Time</td>
                     <td className="border px-4 py-2">20 secs</td>
-                    <td className="border px-4 py-2"></td>
+                    <td className="border px-4 py-2">-</td>
                     <td className="border px-4 py-2">15 secs</td>
-                    <td className="border px-4 py-2"></td>
+                    <td className="border px-4 py-2">-</td>
                     <td className="border px-4 py-2">12 secs</td>
                 </tr>
                 <tr>
                     <td className="border px-4 py-2">Time to Finality</td>
                     <td className="border px-4 py-2">20 secs</td>
-                    <td className="border px-4 py-2"></td>
+                    <td className="border px-4 py-2">-</td>
                     <td className="border px-4 py-2">15 secs</td>
                     <td className="border px-4 py-2">12 mins</td>
                     <td className="border px-4 py-2">12 mins</td>

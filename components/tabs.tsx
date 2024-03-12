@@ -52,6 +52,13 @@ export const  Tabs1=() => {
           </CardBody>
         </Card>
       </Tab>
+      {/* <Tab key="Layer2s" title="Layer2s" >
+        <Card>
+          <CardBody>
+            <EE/>
+          </CardBody>
+        </Card>
+      </Tab> */}
     </Tabs>
     </div>
   );
