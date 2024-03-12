@@ -7,6 +7,7 @@ import { RollupSDKs } from "@/components/rollupSDKs";
 import { DA } from "@/components/da";
 import{SS} from "@/components/ss";
 import { Raas } from "@/components/raas";
+import {EE} from "@/components/EE";
 
 export const  Tabs1=() => {
 
@@ -41,6 +42,13 @@ export const  Tabs1=() => {
         <Card>
           <CardBody>
             <RollupSDKs/>
+          </CardBody>
+        </Card>
+      </Tab>
+      <Tab key="Execution-Environments" title="Execution Environments" >
+        <Card>
+          <CardBody>
+            <EE/>
           </CardBody>
         </Card>
       </Tab>
