@@ -10,6 +10,7 @@ import {Tabs1} from "@/components/tabs";
 import Head from "next/head";
 import modular from "../public/modular.jpeg";
 import { GoogleAnalytics } from '@next/third-parties/google';
+import Script from "next/script";
 
 
 export const metadata: Metadata = {
@@ -40,8 +41,8 @@ export default function RootLayout({
 			{/* <Head> <meta property="og:image" content="https://i.ibb.co/nQmMgGQ/modular.jpg" /></Head> */}
 			
 			<head />
-			<script async src="https://www.googletagmanager.com/gtag/js?id=G-1G3CDZQZJE"></script>
-      <script> 
+			<Script async src="https://www.googletagmanager.com/gtag/js?id=G-1G3CDZQZJE"></Script>
+      <Script> 
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -49,7 +50,7 @@ export default function RootLayout({
 
           gtag('config', 'G-1G3CDZQZJE');
         `}
-      </script>
+      </Script>
 			
 			<body
 				className={clsx(
@@ -62,7 +63,7 @@ export default function RootLayout({
 						<Navbar />
 						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
 							{children}
-							<Tabs1 />
+							{/* <Tabs1 /> */}
 
 						</main>
 						<footer className="w-full flex items-center justify-center py-3">

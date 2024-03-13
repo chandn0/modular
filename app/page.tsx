@@ -5,6 +5,8 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
+import {Tabs1} from "@/components/tabs";
+
 
 export default function Home() {
 	return (
@@ -14,6 +16,8 @@ export default function Home() {
 				Curating all the protocols being developed within modular ecosystems.
 				</h1>
 			</div>
+			<Tabs1 />
+
 		</section>
 	);
 }

@@ -11,7 +11,6 @@ import { Button } from "@nextui-org/button";
 import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
 import { Input } from "@nextui-org/input";
-
 import { link as linkStyles } from "@nextui-org/theme";
 
 import { siteConfig } from "@/config/site";
@@ -60,7 +59,7 @@ export const Navbar = () => {
 						<p className="font-bold text-inherit">Modular-Ecosystem</p>
 					</NextLink>
 				</NavbarBrand>
-				{/* <ul className="hidden lg:flex gap-4 justify-start ml-2">
+				<ul className="hidden lg:flex gap-4 justify-start ml-2">
 					{siteConfig.navItems.map((item) => (
 						<NavbarItem key={item.href}>
 							<NextLink
@@ -75,7 +74,7 @@ export const Navbar = () => {
 							</NextLink>
 						</NavbarItem>
 					))}
-				</ul> */}
+				</ul>
 			</NavbarContent>
 
 			<NavbarContent
@@ -94,9 +93,11 @@ export const Navbar = () => {
 					</Link>
 					{/* <ThemeSwitch /> */}
 				</NavbarItem>
+				<NavbarItem className="hidden lg:flex">Press CTRL+D to BookMark</NavbarItem>
+
 				{/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem> */}
-				{/* <NavbarItem className="hidden md:flex">
-					<Button
+				<NavbarItem className="hidden md:flex">
+					{/* <Button
             isExternal
 						as={Link}
 						className="text-sm font-normal text-default-600 bg-default-100"
@@ -105,8 +106,8 @@ export const Navbar = () => {
 						variant="flat"
 					>
 						Sponsor
-					</Button>
-				</NavbarItem> */}
+					</Button> */}
+				</NavbarItem>
 			</NavbarContent>
 
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">

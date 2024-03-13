@@ -5,25 +5,9 @@ export const siteConfig = {
 	description: "Your one-stop destination for all protocols being developed within modular ecosystems.",
 	navItems: [
 		{
-			label: "Home",
-			href: "/",
+			label: "Tokens",
+			href: "/tokens",
 		},
-		{
-			label: "Docs",
-			href: "/docs",
-		},
-		{
-			label: "Pricing",
-			href: "/pricing",
-		},
-		{
-			label: "Blog",
-			href: "/blog",
-		},
-		{
-			label: "About",
-			href: "/about",
-		}
 	],
 	navMenuItems: [
 		{
