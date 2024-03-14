@@ -14,14 +14,14 @@ export const Others = () => {
   
   <div className="bg-black rounded-lg shadow-md p-6">
     <h2 className="text-blue-500 font-bold text-lg mb-4">
-      <a href="https://www.lavanet.xyz/" className="hover:underline">Lava Network</a>
+      <a href="https://www.lavanet.xyz/" target="_blank" className="hover:underline">Lava Network</a>
     </h2>
     <p className="text-white">Lava is a modular data access (RPC & indexing) layer for rollups. Rollups deploy on Lava to give devs and users fast, reliable onboarding.</p>
   </div>
   
   <div className="bg-black rounded-lg shadow-md p-6">
     <h2 className="text-blue-500 font-bold text-lg mb-4">
-      <a href="https://www.kyve.network/" className="hover:underline">Kyve Network</a>
+      <a href="https://www.kyve.network/" target="_blank" className="hover:underline">Kyve Network</a>
     </h2>
     <p className="text-white"> KYVE offers Data Rollups-as-a-Service (DRaaS), simplifying historical data storage, validation, and accessibility for blockchains and rollups. Seven prominent Cosmos chains already rely on KYVE for historical data support, KYVE is spearheading support for Ethereum Layer 2s in response to the EIP4844 update, which removes historical data support for L2s.</p>
   </div>

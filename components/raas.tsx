@@ -62,10 +62,10 @@ export const Raas = () => {
     <h3 className="text-2xl font-bold mt-8 mb-4">Learn More</h3>
     <ul className="list-disc space-y-2 pl-4">
     <li>
-      <Link href="https://thirdweb.dev/resources/what-is-rollup-as-a-service-which-is-best" className="text-blue-500 hover:underline">What is a Rollup-as-a-Service (& Which is Best)? (thirdweb.com)</Link>
+      <Link href="https://thirdweb.dev/resources/what-is-rollup-as-a-service-which-is-best" target="_blank" className="text-blue-500 hover:underline">What is a Rollup-as-a-Service (& Which is Best)? (thirdweb.com)</Link>
     </li>
     <li>
-      <Link href="https://ethresear.ch/t/rollup-as-a-service-opportunities-and-challenges/6349" className="text-blue-500 hover:underline">Rollup as a Service: Opportunities and Challenges - Layer 2 - Ethereum Research (ethresear.ch)</Link>
+      <Link href="https://ethresear.ch/t/rollup-as-a-service-opportunities-and-challenges/6349" target="_blank" className="text-blue-500 hover:underline">Rollup as a Service: Opportunities and Challenges - Layer 2 - Ethereum Research (ethresear.ch)</Link>
     </li>
   </ul>
 </div>
