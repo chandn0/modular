@@ -8,6 +8,8 @@ import { DA } from "@/components/da";
 import{SS} from "@/components/ss";
 import { Raas } from "@/components/raas";
 import {EE} from "@/components/EE";
+import { Bridges } from "@/components/bridges";
+import { Others } from "@/components/others";
 
 export const  Tabs1=() => {
 
@@ -52,13 +54,20 @@ export const  Tabs1=() => {
           </CardBody>
         </Card>
       </Tab>
-      {/* <Tab key="Layer2s" title="Layer2s" >
+      <Tab key="bridges" title="Interoperability" >
         <Card>
           <CardBody>
-            <EE/>
+            <Bridges/>
           </CardBody>
         </Card>
-      </Tab> */}
+      </Tab>
+      <Tab key="Others" title="Others" >
+        <Card>
+          <CardBody>
+            <Others/>
+          </CardBody>
+        </Card>
+      </Tab>
     </Tabs>
     </div>
   );

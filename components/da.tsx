@@ -84,12 +84,12 @@ export const DA = () => {
                 </tr>
             </tbody>
         </table>
-    <p className="mb-4">Data availability refers to guarantees that the data needed to verify a block in the blockchain is actually available to all network participants. This concept is fundamental to the proper functioning of blockchains, as it allows for full validation of the blockchain`&apos;`s history and current state by any participant, thereby maintaining the decentralized and trustless nature of the network. Without guaranteed data availability, participants could not independently verify the legitimacy of transactions and blocks, which could lead to issues like fraud or censorship within the network.</p>
+    <p className="mb-4">Data availability refers to guarantees that the data needed to verify a block in the blockchain is actually available to all network participants. This concept is fundamental to the proper functioning of blockchains, as it allows for full validation of the blockchain&apos;s history and current state by any participant, thereby maintaining the decentralized and trustless nature of the network. Without guaranteed data availability, participants could not independently verify the legitimacy of transactions and blocks, which could lead to issues like fraud or censorship within the network.</p>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
   <div className="p-4 bg-black rounded-lg shadow-md">
     <h4 className="text-lg font-bold mb-2">Celestia</h4>
     <p className="text-white-700">
-      Celestia is a modular blockchain providing a dedicated data availability (DA) layer. It specializes in ordering transaction data and keeping it available off-chain. Two key features of Celestia`&apos;`s DA layer are data availability sampling (DAS) and Namespaced Merkle trees (NMTs). Both features are novel blockchain scaling solutions: DAS enables light nodes to verify data availability without needing to download an entire block; NMTs enable execution and settlement layers on Celestia to download transactions that are only relevant to them.
+      Celestia is a modular blockchain providing a dedicated data availability (DA) layer. It specializes in ordering transaction data and keeping it available off-chain. Two key features of Celestia&apos;s DA layer are data availability sampling (DAS) and Namespaced Merkle trees (NMTs). Both features are novel blockchain scaling solutions: DAS enables light nodes to verify data availability without needing to download an entire block; NMTs enable execution and settlement layers on Celestia to download transactions that are only relevant to them.
     </p>
   </div>
   <div className="p-4 bg-black rounded-lg shadow-md">
@@ -102,7 +102,7 @@ export const DA = () => {
   <div className="p-4 bg-black rounded-lg shadow-md">
     <h4 className="text-lg font-bold mb-2">Avail Project</h4>
     <p className="text-white-700">
-      Avail Project aims to solve the data availability problem through DAS with the help of KZG polynomial commitments. Avail DA uses validity proofs to make sure that devs don`&apos;`t have to trust Avail`&apos;`s claims about their data being available or not, they can verify it for themselves.
+      Avail Project aims to solve the data availability problem through DAS with the help of KZG polynomial commitments. Avail DA uses validity proofs to make sure that devs don&apos;t have to trust Avail&apos;s claims about their data being available or not, they can verify it for themselves.
     </p>
   </div>
 
@@ -132,9 +132,9 @@ export const DA = () => {
         <li><Link href="https://x.com/lyteraio_en/status/1613292674018168861?s=20" className="text-blue-500" target="_blank"
                 rel="noopener noreferrer">LyteraIO Status Update</Link></li>
         <li><Link href="https://x.com/bkiepuszewski/status/1745776464543224184?s=20" className="text-blue-500" target="_blank"
-                rel="noopener noreferrer">Bkiepuszewski`&apos;`s Status</Link></li>
+                rel="noopener noreferrer">Bkiepuszewski&apos;s Status</Link></li>
         <li><Link href="https://x.com/henrlihenrli/status/1541823636562219008?s=20" className="text-blue-500" target="_blank"
-                rel="noopener noreferrer">Henrlihenrli`&apos;`s Status</Link></li>
+                rel="noopener noreferrer">Henrlihenrli&apos;s Status</Link></li>
 
 
         <li><Link href="https://blog.availproject.org/a-guide-to-selecting-the-right-data-availability-layer/"

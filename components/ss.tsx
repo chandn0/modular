@@ -24,7 +24,7 @@ export const SS = () => {
         <Link href="https://www.astria.org/" className="text-blue-500 hover:underline">Astria</Link>
       </h4>
       <p className="text-white-700">
-        Astria is a shared sequencing network that allows many rollups to share a single decentralized network of sequencers. These sequencers are simple and permissionless to join, completely replacing centralized sequencers. This shared sequencer network provides out-of-the-box censorship resistance, fast block confirmations, and atomic cross-rollup composability – all while retaining each rollup`&apos;`s sovereignty. Astria envisions a future where thousands of decentralized rollups flourish, each one tailored to meet the unique requirements of different industries, applications, and use cases.
+        Astria is a shared sequencing network that allows many rollups to share a single decentralized network of sequencers. These sequencers are simple and permissionless to join, completely replacing centralized sequencers. This shared sequencer network provides out-of-the-box censorship resistance, fast block confirmations, and atomic cross-rollup composability – all while retaining each rollup&apos;s sovereignty. Astria envisions a future where thousands of decentralized rollups flourish, each one tailored to meet the unique requirements of different industries, applications, and use cases.
       </p>
     </div>
 
@@ -45,7 +45,16 @@ export const SS = () => {
         Espresso Systems is working on the Espresso Sequencer, a tool designed to support rollups in achieving decentralization without compromising scalability. The Espresso Sequencer aims to provide rollups with credible neutrality, enhanced interoperability, mitigation of negative effects of MEV (Miner Extractable Value), and long-term economic incentive alignment with Layer 1 (L1) validators.
       </p>
     </div>
+    <div className="p-4 bg-black rounded-lg shadow-md">
+      <h4 className="text-lg font-bold mb-2">
+        <Link href="https://www.nodekit.xyz/" className="text-blue-500 hover:underline">NodeKit SEQ</Link>
+      </h4>
+      <p className="text-white-700">
+      NodeKit SEQ is a decentralized shared sequencer built into a custom L1 blockchain which allows rollups to decentralize their sequencer and increase cross-rollup interoperability. 
+      </p>
+    </div>
   </div>
+  
 
   <h3 className="text-2xl font-bold mt-8 mb-4">Learn More</h3>
   <ul className="list-disc space-y-2 pl-4">
@@ -57,6 +66,8 @@ export const SS = () => {
     </li>
     <li>
       <Link href="https://docs.theradius.xyz/overview/about-radius" className="text-blue-500 hover:underline">About Radius - Radius (theradius.xyz)</Link>
+    </li>  <li>
+      <Link href="https://nodekit.gitbook.io/nodekit-documentation" className="text-blue-500 hover:underline"> NodeKit Documentation</Link>
     </li>
     
       </ul>
