@@ -183,6 +183,40 @@ export const RollupSDKs = () => {
         </ul>
 
     </section>
+    <section className="mb-8">
+
+<h2 className="text-3xl mb-2">8. Rollkit</h2>
+
+<p className="mb-1">The open modular framework for sovereign rollups, Build rollups with interchangeable software to preserve sovereignty</p>
+
+<h3 className="text-2xl mb-1">Key Features:</h3>
+
+<ul className="list-disc pl-6">
+    <li><strong>Customizability:</strong> Rollkit is built as an open source modular framework, to make it easier for developers to reuse the four main components and customize their rollups. These components are data availability layers, execution environments, proof systems, and sequencer schemes.</li>
+    <li><strong>Sovereignty:</strong>Rollkit also enables developers to deploy sovereign rollups for cases where communities require sovereignty.</li>
+</ul>
+
+</section>
+
+<section className="mb-8">
+
+<h2 className="text-3xl mb-2">9. Rollchains</h2>
+
+<p className="mb-1">Using a Cosmos chain with a light client tracking Celestia with a proof-of-blob mechanism to confirm that data has been written to the DA within the trusting period allows a familiar architecture to be used with minor modifications, creating a viable path for not only green-field applications but also existing Cosmos chains that wish to take advantage of DA layer guarantees.</p>
+</section>
+<section className="mb-8">
+
+<h2 className="text-3xl mb-2">10. Madara</h2>
+
+<p className="mb-1">Madara is an open source stack that allows you to build app chains powered by Cairo and Starknet technology</p>
+</section>
+<section className="mb-8">
+
+<h2 className="text-3xl mb-2">11. Stackr Labs</h2>
+
+<p className="mb-1">BUILD WHATEVER, USING WHATEVER | Modular SDK for building micro-rollups in general-purpose languages</p>
+</section>
+
 
     <p className="mt-8">
         Learn more about Rollup SDKs at:

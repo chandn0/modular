@@ -25,6 +25,24 @@ export const Others = () => {
     </h2>
     <p className="text-white"> KYVE offers Data Rollups-as-a-Service (DRaaS), simplifying historical data storage, validation, and accessibility for blockchains and rollups. Seven prominent Cosmos chains already rely on KYVE for historical data support, KYVE is spearheading support for Ethereum Layer 2s in response to the EIP4844 update, which removes historical data support for L2s.</p>
   </div>
+  <div className="bg-black rounded-lg shadow-md p-6">
+    <h2 className="text-blue-500 font-bold text-lg mb-4">
+      <a href="https://medium.com/@NIM_Network/nim-network-the-ai-gaming-chain-e9abd55b8359" target="_blank" className="hover:underline">NIM Network</a>
+    </h2>
+    <p className="text-white"> Nim Network is a highly-adoptable AI Gaming chain that will provide the ultimate ecosystem for exploration and development of games at the intersection of Web3 and AI.</p>
+  </div>
+  <div className="bg-black rounded-lg shadow-md p-6">
+    <h2 className="text-blue-500 font-bold text-lg mb-4">
+      <a href="https://www.ondora.xyz/" target="_blank" className="hover:underline">Dora</a>
+    </h2>
+    <p className="text-white">The multichain Search Engine & Block Explorer.Supporting 31+ chains</p>
+  </div>
+  <div className="bg-black rounded-lg shadow-md p-6">
+    <h2 className="text-blue-500 font-bold text-lg mb-4">
+      <a href="https://docs.vistara.dev/" target="_blank" className="hover:underline">Vistara Labs</a>
+    </h2>
+    <p className="text-white">Hardware Availability Layer for the Modular Web.</p>
+  </div>
   
  
 </div>

@@ -54,7 +54,55 @@ export const Bridges = () => {
     </h2>
     <p className="text-white">Introducing a novel network architecture tailored for low latency cross-rollup communications and global compatibility with Ethereum&apos;s entire rollup ecosystem, underpinned by the cryptoeconomic security of restaked $ETH. This design achieves sub-second cross-rollup message verification while harnessing Ethereum&apos;s industry leading cryptoeconomic security budget. Furthermore, Omni is intentionally designed to be easily integrated with any rollup architecture and local rollup application, while also providing a programmable state layer for managing application deployments across rollups.</p>
   </div>
-</div>
+<div className="bg-black rounded-lg shadow-md p-6">
+    <h2 className="text-blue-500 font-bold text-lg mb-4">
+      <a href="https://across.to/" target="_blank" className="hover:underline">Across Protocol</a>
+    </h2>
+    <p className="text-white"> Interoperability Powered by Intents Secured by UMAprotocol&apos;s Optimistic Oracle</p>
+  </div>
+  <div className="bg-black rounded-lg shadow-md p-6">
+    <h2 className="text-blue-500 font-bold text-lg mb-4">
+      <a href="https://mitosis.org/" target="_blank" className="hover:underline">Mitosis</a>
+    </h2>
+    <p className="text-white"> Mitosis is a liquidity protocol that proposes a new, capital efficient paradigm in cross-chain interoperability fit for the modular blockchain ecosystem.</p>
+  </div>
+  <div className="bg-black rounded-lg shadow-md p-6">
+    <h2 className="text-blue-500 font-bold text-lg mb-4">
+      <a href="https://www.zkm.io/" target="_blank" className="hover:underline">ZKM</a>
+    </h2>
+    <p className="text-white"> ZKM is building a general purpose zkVM that will integrate with the infrastructure of every blockchain (and eventually systems beyond blockchain), allowing the communication of state changes between chains without any sacrifice to security or decentralization. </p>
+  </div>
+  <div className="bg-black rounded-lg shadow-md p-6">
+    <h2 className="text-blue-500 font-bold text-lg mb-4">
+      <a href="https://www.zkm.io/" target="_blank" className="hover:underline">ZKM</a>
+    </h2>
+    <p className="text-white"> ZKM is building a general purpose zkVM that will integrate with the infrastructure of every blockchain (and eventually systems beyond blockchain), allowing the communication of state changes between chains without any sacrifice to security or decentralization. </p>
+  </div>
+  <div className="bg-black rounded-lg shadow-md p-6">
+    <h2 className="text-blue-500 font-bold text-lg mb-4">
+      <a href="https://www.zkm.io/" target="_blank" className="hover:underline">Lagrange</a>
+    </h2>
+    <p className="text-white"> Seamlessly interact between chains with cryptographically secure state proofs, not opaque intermediaries. Run expressive and dynamic distributed ZK computation at a Big Data scale on top of multi-chain contract states. </p>
+  </div>
+  <div className="bg-black rounded-lg shadow-md p-6">
+    <h2 className="text-blue-500 font-bold text-lg mb-4">
+      <a href="https://catalyst.exchange/" target="_blank" className="hover:underline">Catalyst</a>
+    </h2>
+    <p className="text-white"> Catalyst is permissionless liquidity, purpose-built to connect all chains</p>
+  </div>
+  <div className="bg-black rounded-lg shadow-md p-6">
+    <h2 className="text-blue-500 font-bold text-lg mb-4">
+      <a href="https://www.trestleprotocol.io/" target="_blank" className="hover:underline">Trestle</a>
+    </h2>
+    <p className="text-white"> Connecting projects and users of Ethereum to the Celestia ecosystem.</p>
+  </div>
+  <div className="bg-black rounded-lg shadow-md p-6">
+    <h2 className="text-blue-500 font-bold text-lg mb-4">
+      <a href="https://www.trestleprotocol.io/" target="_blank" className="hover:underline">Trestle</a>
+    </h2>
+    <p className="text-white"> Connecting projects and users of Ethereum to the Celestia ecosystem.</p>
+  </div>
+  </div>
 
     </div>
     );
