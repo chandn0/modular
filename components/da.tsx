@@ -147,6 +147,8 @@ export const DA = () => {
          <li><Link href="https://forum.celestia.org/t/a-comparison-between-da-layers/899" className="text-blue-500"
          target="_blank" rel="noopener noreferrer">A comparison between DA layers - General - Celestia
          Forum</Link></li>
+         <li><Link href="https://x.com/mraltantutar/status/1766888258288677258?s=20" className="text-blue-500"
+         target="_blank" rel="noopener noreferrer">Why choose NEAR for Data Availability (DA)?</Link></li>
 </ul>
 
 </div>

@@ -72,12 +72,7 @@ export const Bridges = () => {
     </h2>
     <p className="text-white"> ZKM is building a general purpose zkVM that will integrate with the infrastructure of every blockchain (and eventually systems beyond blockchain), allowing the communication of state changes between chains without any sacrifice to security or decentralization. </p>
   </div>
-  <div className="bg-black rounded-lg shadow-md p-6">
-    <h2 className="text-blue-500 font-bold text-lg mb-4">
-      <a href="https://www.zkm.io/" target="_blank" className="hover:underline">ZKM</a>
-    </h2>
-    <p className="text-white"> ZKM is building a general purpose zkVM that will integrate with the infrastructure of every blockchain (and eventually systems beyond blockchain), allowing the communication of state changes between chains without any sacrifice to security or decentralization. </p>
-  </div>
+
   <div className="bg-black rounded-lg shadow-md p-6">
     <h2 className="text-blue-500 font-bold text-lg mb-4">
       <a href="https://www.zkm.io/" target="_blank" className="hover:underline">Lagrange</a>
@@ -96,12 +91,7 @@ export const Bridges = () => {
     </h2>
     <p className="text-white"> Connecting projects and users of Ethereum to the Celestia ecosystem.</p>
   </div>
-  <div className="bg-black rounded-lg shadow-md p-6">
-    <h2 className="text-blue-500 font-bold text-lg mb-4">
-      <a href="https://www.trestleprotocol.io/" target="_blank" className="hover:underline">Trestle</a>
-    </h2>
-    <p className="text-white"> Connecting projects and users of Ethereum to the Celestia ecosystem.</p>
-  </div>
+
   </div>
 
     </div>

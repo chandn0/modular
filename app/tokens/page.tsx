@@ -66,7 +66,7 @@ export default function PricingPage() {
                 <td className="border px-4 py-2"><a href="https://coinmarketcap.com/currencies/cartesi/" target="_blank" className="text-blue-500 hover:underline">Market Cap Chart</a></td>
             </tr>
             <tr >
-                <td className="border px-4 py-2">Kyve Network</td>
+                <td className="border px-4 py-2">KYVE Network</td>
                 <td className="border px-4 py-2">KYVE</td>
                 <td className="border px-4 py-2">DA-Archivle</td>
                 <td className="border px-4 py-2"><a href="https://coinmarketcap.com/currencies/kyve-network/" target="_blank" className="text-blue-500 hover:underline">Market Cap Chart</a></td>
