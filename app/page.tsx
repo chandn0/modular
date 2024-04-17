@@ -117,11 +117,11 @@ export default function Home() {
         </div>
     </div>
 	<div className="bg-cyan-500 text-white p-2 rounded-t-lg mt-4">
-      <h2 className="text-xl font-bold">Execution Environments</h2>
+      <h2 className="text-xl font-bold">zkVMs</h2>
     </div>
-    <div className="bg-cyan-400 p-2 rounded-b-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+    <div className="bg-cyan-400 p-2 rounded-b-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-9 gap-4">
       <div className="bg-black rounded-lg shadow-md p-1">
-        <h3 className="text-lg font-semibold mb-1">Polygon Miden</h3>
+        <h3 className="text-lg font-semibold mb-1">Miden</h3>
         
       </div>
       <div className="bg-black rounded-lg shadow-md p-1">
@@ -129,14 +129,26 @@ export default function Home() {
         
       </div>
       <div className="bg-black rounded-lg shadow-md p-1">
-        <h3 className="text-lg font-semibold mb-1">fuel VM</h3>
+        <h3 className="text-lg font-semibold mb-1">Jolt</h3>
         
       </div>
       <div className="bg-black rounded-lg shadow-md p-1">
-        <h3 className="text-lg font-semibold mb-1">moveVM</h3>
+        <h3 className="text-lg font-semibold mb-1">Nexus</h3>
         </div>
 		<div className="bg-black rounded-lg shadow-md p-1">
         <h3 className="text-lg font-semibold mb-1">RISC0 zkVM</h3>
+        </div>
+        <div className="bg-black rounded-lg shadow-md p-1">
+        <h3 className="text-lg font-semibold mb-1">Sp1</h3>
+        </div>
+        <div className="bg-black rounded-lg shadow-md p-1">
+        <h3 className="text-lg font-semibold mb-1">Valida</h3>
+        </div>
+        <div className="bg-black rounded-lg shadow-md p-1">
+        <h3 className="text-lg font-semibold mb-1">zkOS</h3>
+        </div>
+        <div className="bg-black rounded-lg shadow-md p-1">
+        <h3 className="text-lg font-semibold mb-1">TritonVM</h3>
         </div>
       
     </div>
